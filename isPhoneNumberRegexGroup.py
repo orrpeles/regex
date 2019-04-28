@@ -11,3 +11,12 @@ mo.groups() #returns a tuple of both groups ('415','555-4242')
 areaCode, mainNumber = mo.groups()
 areaCode # returns 415
 mainNumber # returns 555-4242
+
+#this example makes the regex look for phone numbers with or without area areaCode
+
+phoneNumRegex2 = re.compile(r'(\d\d\d-)?-(\d\d\d-\d\d\d\d)')
+mo1 = phoneRegex2.search('My number is 415-555-4242')
+mo2 = phoneRegex2.search('My number is 555-4242')
+mo1.group()
+mo2.group()
+# You can think of the ? as saying, “Match zero or one of the group preceding this question mark.”
