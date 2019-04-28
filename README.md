@@ -11,11 +11,11 @@ Ref: https://docs.python.org/3/howto/regex.html
 
 Flow:
 1.) Import the regex module with import re.
-"import re"
+"import re".
 2.) Create a Regex object with the re.compile() function (use r' if interested in raw string).
-"regObj = re.compile(r'\d')"
+"regObj = re.compile(r'\d')".
 3.) Pass the string you want to search into the Regex object’s search() method.
-'string = regObj.search("find the digit 8 now")'
+'string = regObj.search("find the digit 8 now")'.
 4.) Call the Match object’s group() method to return a string of the actual
 string.group()
--> matched text. '8'
+-> matched text. '8'.
