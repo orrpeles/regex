@@ -1,3 +1,6 @@
+Best to use a web based Regex tester, such as the below:
+https://www.regexpal.com/
+
 All the regex functions in Python are in the re module. Enter 'import re' into the interactive shell to import this module.
 Example:
 import re
