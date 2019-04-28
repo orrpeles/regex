@@ -10,6 +10,7 @@ Typing r'\d\d\d-\d\d\d-\d\d\d\d' is much easier than typing
 Ref: https://docs.python.org/3/howto/regex.html
 
 Flow:
+
 1.) Import the regex module with import re.
 "import re".
 
